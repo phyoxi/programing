@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      /* text-shadow
+      box-shadow
+      x-offset
+      y-offset
+      blur
+      spread
+      color 
+      inset */
+      body {
+         /* background-image: url("../PROJECT/cat\ photo.jpg"); */
+         height: 200vh;
+      }
+      img{
+         filter:blur(.5px);
+         box-shadow: 10px 10px 15px gray,-10px -10px burlywood;
+         
+      }
+      .one {
+         height: 150px;
+         width: 300px;
+         background: yellowgreen;
+         margin: 50px;
+         box-shadow: 0 0 25px 10px rgba(255, 255, 0, 0.741);
+
+      }
+      .b1 {
+         height: 100px;
+         width: 300px;
+         background: aqua;
+         margin: 200px 50px;
+         /* box-shadow: 15px 25px 5px 35px rgba(128, 128, 128, 0.531); */
+         box-shadow: 10px 10px 20px 5px rgb(77, 235, 167),
+         -10px -10px 20px 5px rgb(152, 33, 33),
+         20px 20px 20px blueviolet  ;
+      }
+      .two {
+         width: 300px;
+         height: 350px;
+         border: 3px solid black;
+         background-color: azure;
+         margin: 50px;
+         box-shadow: 0 0 25px 10px rgb(78, 103, 214) inset;
+      }
+      .three {
+         width: 100px;
+         height: 150px;
+         /* background-color: blueviolet; */
+         margin: 30px;
+         border: 3px solid black;
+         border-radius: 0 100px 50px 0 ;
+
+      }
+   </style>
+</head>
+<body>
+   <div class="b1"></div>
+   <div class="one"></div>
+   <div class="two"></div>
+   <div class="three"></div>
+   <img src="../PROJECT/pexels-photo-1404819.webp" alt="">
+</body>
+</html>

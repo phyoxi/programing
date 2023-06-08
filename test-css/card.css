@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+ --primary: #8d99ae;
+ --secondary:  #f94144;
+ --danger:#ffc300;
+ --main-font:'Roboto Slab', serif;
+}
+*{
+   font-family: var(--main-font);
+   margin: 0;
+   padding: 0;
+} 
+.card {
+   width: 250px;
+   border: 1px solid black;
+   margin: 10px;
+   padding: 20px;
+   display: inline-block;
+ 
+
+}
+.card-title {
+   font-weight: 700;
+   font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.card-text {
+   font-size: 16px;
+   
+}
+
+.text-center {
+   text-align: center;
+}
+
+.text-start {
+   text-align: left;
+}
+
+.text-end {
+   text-align: right;
+}
+
+.rounded{
+   border-radius: 10px;
+}
+/* descendant selector (space)
+child selector(>)
+adjacent sibling selector(+)
+general sibling selector(~) */
+
+.card-img {
+   width: 100%;
+   margin-bottom: 15px;
+}
+.p-none{
+   padding: 0;
+}
+.card-body {
+   padding: 20px;
+}
+.m-none {
+   margin: 0;
+}
+.img-square {
+   height: auto;
+   aspect-ratio: 2/1;
+   object-fit:cover;
+   object-position:center;
+}
+.img-float {
+   margin-top: -66px;
+   box-shadow: 0 0 20px 2px rgba(63, 2, 2, 0.8);
+}
+.mt-200{
+   margin-top: 150px;
+}

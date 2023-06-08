@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+:root {
+  --p: #9d4edd;
+  --g: #bcb8b1;
+  --b: #4cc9f0;
+}
+* {
+   font-family: 'Playfair Display', serif;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.btn {
+  height: 50px;
+
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 15px;
+  /* box-shadow: 0 0 5px ; */
+  text-align: center;
+}
+.btn-primary {
+  width: 240px;
+  background-color: var(--b);
+  border: 2px solid var(--b);
+  color: white;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.btn-secondary {
+  width: 100px;
+  background-color: var(--p);
+  border: 2px solid var(--p);
+  color: white;
+}
+.btn-third {
+  width: 100px;
+  background-color: transparent;
+  border: 2px solid var(--p);
+  color: var(--p);
+   
+}
+.btn-final {
+  width: 240px;
+  background-color: var(--p);
+  border: 2px solid var(--p);
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.btn-primary:active {
+  background-color: var(--g);
+  border-color: var(--g);
+  font-size: 25px;
+  color: #3a0ca3;
+  transition: 0.3s;
+}
+h1 {
+  margin-left: 30px;
+}
+.btn-final:active {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+
+  transition: 0.3s;
+  background-color: #f72585;
+  position: absolute;
+  top: 60px;
+}
+.btn-secondary,
+.btn-third:hover {
+}
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: #bcb8b1;
+  position: absolute;
+  display: inline-block;
+}
+.ho-secondary {
+
+
+}
+.btn-secondary:active {
+   position: absolute;
+   top: 160px;
+   left: 130px;
+   background-color: transparent;
+   color: var(--p);
+  
+
+
+}

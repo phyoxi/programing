@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap');
+
+  :root {
+   --primary: #8d99ae;
+   --secondary:  #f94144;
+   --danger:#ffc300;
+   --main-font:'Roboto Slab', serif;
+  }
+  *{
+   font-family: var(--main-font)
+}
+.btn {
+   display: inline-block;
+   height: 40px;
+   padding: 0 30px;
+   box-sizing: border-box;
+   border-radius: 5px;
+  text-decoration: none;
+  line-height: 36px;
+  text-transform: capitalize;
+   font-size: 14px;
+
+}
+.btn-icom {
+   padding: 0px;
+   width: 40px;
+}
+
+
+
+
+.btn-primary {
+     background-color: var(--primary);
+   border: 2px solid var(--primary);
+    color: #ffff;
+}
+.btn-secondary {
+   background-color: var(--secondary); 
+   border: 2px solid var(--secondary);
+    color: #ffff;
+}.btn-danger {
+   background-color: var(--danger); 
+   border: 2px solid var(--danger);
+    color: #ffff;
+}
+.btn-pill{
+   border-radius: 20px;
+}
+.btn-outline-primary {
+   background-color: transparent;
+   border: 2px solid var(--primary);
+    color:  var(--primary);
+}
+.btn-outline-secondary {
+   background-color: transparent;
+   border: 2px solid var(--secondary);
+    color:  var(--secondary);
+}
+.btn-outline-danger {
+   background-color: transparent;
+   border: 2px solid var(--danger);
+    color:  var(--danger);
+}

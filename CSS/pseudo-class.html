@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      body {
+         background-color: rgb(45, 44, 44);
+      }
+      h1 {
+         border: 3px solid black;
+         border-radius: 5px;
+         padding: 20px;
+         margin: 20px;
+         text-align: center;
+         transition: 0.5s;
+      }
+      /* mouse ရောက်လာလျှင် */
+      h1:hover {
+         color: aqua;
+         margin-top: 30px;
+         font-size: 40px;
+         border: none;
+         text-shadow: 5px 5px 30px skyblue;
+
+      }
+      /* mouse click နှိပ်လျှင် */
+      h1:active {
+         color:rgb(182, 196, 51);
+         box-shadow: 0 0 20px 0 rgb(13, 23, 220) inset;
+         transition: 0.3s;
+         font-size: 30px;
+      }
+      input {
+         margin: 50px;
+         transition: .3s;
+         border: 3px solid yellow;
+         border-radius: 5px;
+         background-color: rgba(128, 128, 128, 0.587);
+         color: white;
+      }
+      input:focus {
+         box-shadow: 0 0 8px blue;
+      }
+      input:focus-visible {
+         outline: none;
+      }
+      h2 {
+         color:antiquewhite;
+         border: 3px solid none;
+         text-align: center;
+         text-shadow: 15px 7px 3px rgb(205, 227, 209);
+         transition: .3s;
+         
+      }
+      h2:hover {
+         font-size: 40px ;
+         color: rgb(35, 232, 243);
+         transition: .5s;
+         text-shadow: 15px 7px 10px rgb(182, 196, 51);
+         margin-top: 10px;
+         box-shadow: 0 0 20px rgb(246, 87, 87);
+         padding: 30px;
+      }
+      h2:active {
+         text-align: right;
+         transition: .5s;
+         color:aqua;
+
+      }
+   </style>
+</head>
+<body>
+   <button>Click me</button>
+   <h1>Min Ga Lar Par</h1>
+   <div>
+      <h2>Sar PP Lar</h2>
+   </div>
+   <input type="text">
+</body>
+</html>
